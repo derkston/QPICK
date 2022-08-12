@@ -1,0 +1,135 @@
+/* === DESKTOP FIRST === */
+
+/* xl <= Extra extra large (xxl) */
+@media (max-width : 1400px) {
+
+}
+
+/* lg <= Extra large (xl) */
+@media (max-width : 1200px) {
+	.banner__items {
+		padding: 20px;
+	}
+	.banner__items h2  {
+	font-family: Montserrat;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0em;
+	}
+	.banner__items img {
+		max-width: 50%;
+	}
+	._wrapp {
+		padding: 0px 20px;
+	}
+	.burger {
+		display: block;
+	}
+	.header__main {
+		display: none;
+	}
+	.header__main.active {
+		display: flex;
+		width: 100%;
+		position: absolute;
+		z-index: 1000;
+		top: 100%;
+		left: 0%;
+		margin-top: 25px;
+		background: #FFFFFF;
+		border-radius: 0px 0px 0px 20px;
+		padding: 25px;
+	}
+	.fe {
+		display: flex;
+		align-items: center;
+		gap: 20px;
+	}
+
+	.covers__items .product , .cordless .product{
+		max-width: 100%;
+	}
+	.headphones__items .product {
+		max-width: 45%;
+		flex-basis: 49%;
+	}
+}
+
+/* md <= Large (lg) */
+@media (max-width : 992px) {
+	.map__soc {
+		padding: 15px;
+	}
+	.map__soc img {
+		min-width: 20px;
+		min-height: 20px;
+		max-width: 20px;
+		max-height: 20px;
+	}
+}
+
+/* sm <= Medium (md) */
+@media (max-width : 768px) {
+	.product__foto {
+		justify-content: center;
+	}
+}
+
+/* xs <= Small (sm) */
+@media (max-width : 576px) {
+	.headphones__items .product , .covers__items .product {
+		max-width: 100%;
+		flex-basis: 100%;
+	}
+	.footer__list {
+		justify-content: center;
+	}
+	.swiper-slide.product-tel , .product-tel , .swiper-slide {
+		width: 100% !important ;
+	}
+
+}
+
+@media (max-width : 440px) {
+	.product-page__foto_footer {
+		justify-content: center;
+		gap: 15px;
+	}
+}
+
+/* === MOBILE FIRST === */
+
+/* Custom (xs) */
+@media (min-width : 0) {
+
+}
+
+/* Small (sm) */
+@media (min-width : 576px) {
+
+}
+
+/* Medium (md) */
+@media (min-width : 768px) {
+
+}
+
+/* Large (lg) */
+@media (min-width : 992px) {
+
+}
+
+/* Extra large (xl) */
+@media (min-width : 1200px) {
+	.text {
+		font-size: 18px;
+	}
+}
+
+/* Extra extra large (xxl) */
+@media (min-width : 1400px) {
+	.text {
+		font-size: 22px;
+	}
+}

@@ -1,0 +1,30 @@
+.conditions__items {
+	display: flex;
+	flex-direction: column;
+}
+.conditions__item {
+	padding: 15px 30px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 30px;
+	margin: 20px 0px;
+}
+.conditions__item  h2 {
+	font-family: Montserrat;
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 21px;
+	letter-spacing: 0em;
+	color: rgba(28, 28, 39, 1);
+	margin: 0%;
+	margin-bottom: 15px;
+}
+.conditions__item p {
+	font-family: Montserrat;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	color: rgba(0, 0, 0, 1);
+	padding-left: 15px;
+}
